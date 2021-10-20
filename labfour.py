@@ -24,7 +24,7 @@ if led == "LED C":
   print('<input type="radio" name ="option" value="LED_A"> LED A <br>')
   print('<input type="radio" name ="option" value="LED_B"> LED B <br>')
   print('<input type="radio" name ="option" value="LED_C" checked> LED C <br>')
-print('<input type="range" name="Brightness" min="0" max="100" value="50"/><br>')
+print('<input type="range" name="Brightness" min="0" max="100" value="%s"/><br>' % s1)
 print('<input type="submit" value="Submit">')
 print('</form>')
 print('Brightness = %s' % s1)
